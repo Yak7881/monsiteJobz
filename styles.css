@@ -1,0 +1,252 @@
+/* Style global */
+body {
+    background-image: url('img/SL-113022-54210-35.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    color: #fff; /* Si le texte est difficile à lire, ajustez la couleur */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+ }
+  
+  /* Header */
+  header {
+    background: #1e3c72; /* Bleu profond */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  /* Boutons */
+  button {
+    background-color: #1e3c72; /* Bleu sombre */
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2a5298; /* Bleu clair */
+  }
+  
+  /* Footer */
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.carousel-section {
+    background-image: url('img/SL-113022-54210-35.jpg');
+    padding: 50px 0;
+  }
+  
+  .carousel-inner-img {
+    object-fit: contain; /* Permet de contenir toute l'image sans qu'elle soit coupée */
+    width: 100%; /* S'étend sur toute la largeur */
+    height: auto; /* Ajuste automatiquement la hauteur */
+    max-height: 500px; /* Tu peux modifier cette valeur selon tes besoins */
+    margin: auto; /* Centre l'image dans son conteneur */
+}
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%); /* Change les flèches en blanc */
+  }
+  
+/* Ajuster les dimensions des images */
+.carousel-item img {
+    height: 300px; /* Fixe la hauteur des images */
+    width: auto; /* S’assure que la largeur s’adapte proportionnellement */
+    object-fit: cover; /* Les images rempliront le cadre de manière équilibrée */
+}
+
+/* Limiter la hauteur du conteneur du carousel */
+.carousel-container {
+    max-height: 300px; /* Ajuster cette valeur */
+    overflow: hidden; /* Empêche les débordements */
+    border-radius: 10px; /* Ajoute des coins arrondis */
+}
+
+.candidate-video {
+    width: 100%; /* La vidéo s'adapte à la largeur de la carte */
+    max-width: 300px; /* Limite la largeur de la vidéo */
+    height: 200px; /* Ajuste la hauteur */
+    border-radius: 10px; /* Ajoute des coins arrondis pour un design moderne */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute un effet d'ombre */
+    margin: 10px auto; /* Centre la vidéo */
+    display: block; /* Assure le centrage */
+  }
+  .candidate-card {
+    width: 320px; /* Taille de la carte */
+    padding: 15px; /* Ajoute un espacement interne */
+    border: 1px solid  #ddd; /* Bordure légère */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+    background-color: rgb(20, 51, 109); /* Fond blanc pour contraster */
+    text-align: center; /* Aligne le contenu au centre */
+    margin: 20px auto; /* Centre la carte */
+  }
+  .candidate-card:hover {
+    transform: scale(1.05); /* Agrandit légèrement la carte au survol */
+    transition: transform 0.3s ease-in-out; /* Animation fluide */
+  }
+  .footer {
+    position: fixed; /* Fixe le footer en bas de la page */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #121212; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-align: center;
+    padding: 10px 0; /* Espacement interne */
+    font-size: 0.9rem; /* Taille du texte */
+    z-index: 100
+}
+/* Section séparatrice au-dessus du footer */
+.separator {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Dégradé moderne */
+    padding: 40px 20px; /* Espacement interne */
+    text-align: center; /* Centrage du texte */
+    color: white; /* Couleur du texte */
+    margin-top: 30px; /* Espacement avec le contenu précédent */
+    border-top-left-radius: 20px; /* Coins arrondis en haut */
+    border-top-right-radius: 20px; /* Coins arrondis en haut */
+}
+
+/* Call-to-action dans la section */
+.separator .cta h2 {
+    font-size: 1.8rem; /* Taille du titre */
+    margin-bottom: 20px; /* Espacement avec le bouton */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Effet d’ombre pour lisibilité */
+}
+
+.separator .cta-button {
+    background: #ffffff; /* Couleur blanche pour le bouton */
+    color: #2575fc; /* Couleur du texte */
+    padding: 10px 20px; /* Taille du bouton */
+    font-size: 1.2rem; /* Taille du texte dans le bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 25px; /* Bouton arrondi */
+    cursor: pointer; /* Curseur interactif */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Effet d’ombre */
+    transition: all 0.3s ease; /* Transition douce */
+}
+
+.separator .cta-button:hover {
+    background: #2575fc; /* Fond bleu sur survol */
+    color: white; /* Texte blanc */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Accentuation de l’ombre */
+}
+.title {
+    font-size: 2.5rem; /* Taille du texte */
+    font-weight: bold; /* Épaisseur */
+    color: #ffffff; /* Couleur blanche */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Effet d’ombre */
+    text-align: center; /* Centrage du texte */
+    margin-bottom: 20px; /* Espacement avec les éléments en dessous */
+    background: linear-gradient(to right, #2d11cb, #2575fc); /* Dégradé */
+    -webkit-background-clip: text; /* Applique le dégradé au texte */
+    -webkit-text-fill-color: transparent; /* Rend le fond transparent */
+}
+/* Slogan avant le footer */
+.slogan {
+    background-color: #2575fc; /* Couleur d'arrière-plan */
+    padding: 70px 60px; /* Espacement interne */
+    text-align: center; /* Centrer le texte */
+    color: white; /* Couleur du texte */
+    font-size: 1.2rem; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Effet d’ombre */
+    border-top: 2px solid #6a11cb; /* Ligne séparatrice élégante */
+}
+/* Conteneur du formulaire */
+.form-container {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Dégradé */
+    padding: 30px;
+    border-radius: 20px; /* Coins arrondis */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Effet d'ombre */
+    text-align: center; /* Centrer le contenu */
+    margin: 20px auto; /* Espacement automatique */
+    width: 90%; /* Ajuster la largeur */
+    max-width: 600px; /* Limiter la taille */
+    color: white; /* Couleur du texte */
+}
+
+/* Titre du formulaire */
+.form-title {
+    font-size: 2rem; /* Taille du titre */
+    margin-bottom: 20px; /* Espacement sous le titre */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Effet d’ombre */
+}
+
+/* Champs du formulaire */
+.form-group {
+    margin-bottom: 15px; /* Espacement entre les champs */
+    text-align: left; /* Aligner le texte des labels à gauche */
+}
+
+.form-group label {
+    font-size: 1rem; /* Taille des labels */
+    display: block; /* Affichage en bloc */
+    margin-bottom: 5px; /* Espacement sous le label */
+}
+
+.form-group input {
+    width: 100%; /* Champ large */
+    padding: 10px; /* Espacement interne */
+    border: none; /* Pas de bordure */
+    border-radius: 10px; /* Coins arrondis */
+    font-size: 1rem; /* Taille du texte */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Légère ombre */
+    margin-bottom: 10px; /* Espacement sous le champ */
+}
+
+/* Bouton d'envoi */
+.form-button {
+    background: #ffffff; /* Fond blanc */
+    color: #2575fc; /* Texte bleu */
+    padding: 10px 20px; /* Taille du bouton */
+    font-size: 1.2rem; /* Taille du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 20px; /* Coins arrondis */
+    cursor: pointer; /* Curseur interactif */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Effet d'ombre */
+    transition: all 0.3s ease; /* Transition douce */
+}
+
+.form-button:hover {
+    background: #2575fc; /* Fond bleu sur survol */
+    color: white; /* Texte blanc */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* Accentuation de l'ombre */
+}
+/* Logo dans le header */
+.navbar-logo {
+    height: 50px; /* Ajuste la hauteur du logo */
+    width: auto; /* Garde les proportions */
+    margin-right: 10px; /* Espacement à droite du logo */
+}
+/* Styliser les boutons de navigation */
+.navigation-buttons .btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.navigation-buttons .btn:hover {
+    transform: scale(1.1); /* Effet d'agrandissement au survol */
+}
+
+/* Logo dans le header */
+.navbar-logo {
+    height: 50px; /* Ajuste la hauteur du logo */
+    width: auto; /* Garde les proportions */
+    margin-right: 10px; /* Espacement à droite du logo */
+}

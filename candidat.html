@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candidat - JobzFusion</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-primary text-white py-3">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/IMG_0063.jpeg" alt="JobsFusion Logo" class="navbar-logo">
+    </div>
+    <div class="navigation-buttons text-center mt-4">
+        <a href="recruteur.html" class="btn btn-primary mx-2">Page Recruteur</a>
+        <a href="candidat.html" class="btn btn-secondary mx-2">Page Candidat</a>
+    </div>
+  </header>
+
+  <!-- Formulaire -->
+  <section class="form-container">
+    <h2 class="form-title">Déposez votre Vidéo CV</h2>
+    <form action="#" method="POST" class="modern-form">
+        <div class="form-group">
+            <label for="name">Votre nom</label>
+            <input type="text" id="name" name="name" placeholder="Entrez votre nom" required>
+        </div>
+        <div class="form-group">
+            <label for="skills">Vos compétences</label>
+            <input type="text" id="skills" name="skills" placeholder="Exemple : Leadership, Développement Web" required>
+        </div>
+        <div class="form-group">
+            <label for="file">Choisir un fichier</label>
+            <input type="file" id="file" name="file" accept="video/*" required>
+        </div>
+        <button type="submit" class="form-button">Envoyer</button>
+    </form>
+</section>
+
+  <!-- Footer -->
+  <div class="slogan">
+    <p>Postulez dès maintenant et donnez un nouvel élan à votre carrière !</p>
+</div
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 JobzFusion. Tous droits réservés.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
